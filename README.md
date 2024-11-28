@@ -6,7 +6,7 @@
 
 ## Description
 
-This project provides a parser for converting ACF (Advanced Custom Fields) JSON exports into PHP code using [ACF Builder](https://github.com/StoutLogic/acf-builder).
+This project provides a parser for converting ACF (Advanced Custom Fields) exports into PHP code that uses [ACF Builder](https://github.com/StoutLogic/acf-builder) for the creation of ACF fields. It provides a simple way to batch convert ACF fields from ACF exports into PHP code that can be used in a theme or plugin. An example use case would be to convert a legacy project that uses ACF fields into a more modern (version controllable) approach that uses ACF Builder.
 
 ## Requirements
 
