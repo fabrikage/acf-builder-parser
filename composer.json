@@ -1,0 +1,24 @@
+{
+    "name": "fabrikage/acf-builder-parser",
+    "description": "Convert Advanced Custom Fields exports to PHP code that uses stoutlogic/acf-builder",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fabrikage\\AcfBuilderParser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bart Klein Reesink",
+            "email": "bart@fabrikage.nl"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "stoutlogic/acf-builder": "^1.12"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.1"
+    }
+}

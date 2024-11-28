@@ -1,0 +1,866 @@
+[
+    {
+        "key": "group_67482934dadb3",
+        "title": "A collection of all possible ACF fields containing dummy data",
+        "fields": [
+            {
+                "key": "field_6748293508c30",
+                "label": "Voluptatem Molestia",
+                "name": "voluptatem_molestia",
+                "aria-label": "",
+                "type": "icon_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "tabs": [
+                    "dashicons",
+                    "media_library",
+                    "url"
+                ],
+                "return_format": "string",
+                "library": "all",
+                "default_value": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            {
+                "key": "field_6748297208c31",
+                "label": "Dignissimos ducimus",
+                "name": "dignissimos_ducimus",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Impedit doloribus q",
+                "maxlength": "",
+                "rows": "",
+                "placeholder": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_6748297908c32",
+                "label": "Minim fugit volupta",
+                "name": "minim_fugit_volupta",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Voluptatem Cumque v",
+                "min": "",
+                "max": "",
+                "placeholder": "",
+                "step": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_6748298008c33",
+                "label": "Quos doloremque pari",
+                "name": "quos_doloremque_pari",
+                "aria-label": "",
+                "type": "range",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 4,
+                "min": "",
+                "max": "",
+                "step": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_674829b208c34",
+                "label": "Non neque in archite",
+                "name": "non_neque_in_archite",
+                "aria-label": "",
+                "type": "email",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Beatae non dolor quo",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_674829c008c35",
+                "label": "Dolorum libero adipi",
+                "name": "dolorum_libero_adipi",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Repudiandae in persp",
+                "placeholder": ""
+            },
+            {
+                "key": "field_674829ca08c36",
+                "label": "Harum et hic a velit",
+                "name": "harum_et_hic_a_velit",
+                "aria-label": "",
+                "type": "icon_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "tabs": [
+                    "dashicons",
+                    "media_library",
+                    "url"
+                ],
+                "return_format": "string",
+                "library": "all",
+                "default_value": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            {
+                "key": "field_674829d308c37",
+                "label": "Sint dolores ratione",
+                "name": "sint_dolores_ratione",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "uploadedTo",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_674829e408c38",
+                "label": "Eligendi amet nulla",
+                "name": "eligendi_amet_nulla",
+                "aria-label": "",
+                "type": "file",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "uploadedTo",
+                "min_size": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_674829ef08c39",
+                "label": "Et duis nobis archit",
+                "name": "et_duis_nobis_archit",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Tempor doloribus dol",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_674829ff08c3a",
+                "label": "Et odit quos est vel",
+                "name": "et_odit_quos_est_vel",
+                "aria-label": "",
+                "type": "oembed",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "width": 100,
+                "height": 200
+            },
+            {
+                "key": "field_67482d6b51f06",
+                "label": "Voluptatum excepteur",
+                "name": "voluptatum_excepteur",
+                "aria-label": "",
+                "type": "gallery",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min": "",
+                "max": "",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "insert": "append",
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_67482d8051f07",
+                "label": "Et rem iste quis nem",
+                "name": "et_rem_iste_quis_nem",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Aut et inventore ips": "Aut et inventore ips"
+                },
+                "default_value": [
+                    "Doloribus mollit qua"
+                ],
+                "return_format": "value",
+                "multiple": 1,
+                "allow_null": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_67482d8f51f08",
+                "label": "Eius expedita distin",
+                "name": "eius_expedita_distin",
+                "aria-label": "",
+                "type": "checkbox",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Facere eveniet et u": "Facere eveniet et u"
+                },
+                "default_value": [
+                    "Modi dolor et earum"
+                ],
+                "return_format": "value",
+                "allow_custom": 0,
+                "layout": "vertical",
+                "toggle": 0,
+                "save_custom": 0,
+                "custom_choice_button_text": "Nieuwe keuze toevoegen"
+            },
+            {
+                "key": "field_67482d9b51f09",
+                "label": "Alias voluptate nihi",
+                "name": "alias_voluptate_nihi",
+                "aria-label": "",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Ipsum quidem odio vo": "Ipsum quidem odio vo"
+                },
+                "default_value": "Do sed labore dolore",
+                "return_format": "value",
+                "allow_null": 0,
+                "other_choice": 0,
+                "layout": "vertical",
+                "save_other_choice": 0
+            },
+            {
+                "key": "field_67482da851f0a",
+                "label": "Velit dolore sit v",
+                "name": "velit_dolore_sit_v",
+                "aria-label": "",
+                "type": "button_group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Neque quis officiis": "Neque quis officiis"
+                },
+                "default_value": "Aut dolores obcaecat",
+                "return_format": "label",
+                "allow_null": 0,
+                "layout": "horizontal"
+            },
+            {
+                "key": "field_67482db351f0b",
+                "label": "Eum occaecat laborum",
+                "name": "eum_occaecat_laborum",
+                "aria-label": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Amet incidunt odio",
+                "default_value": 0,
+                "ui": 0,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_67482dc251f0c",
+                "label": "Non officiis consequ",
+                "name": "non_officiis_consequ",
+                "aria-label": "",
+                "type": "link",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url"
+            },
+            {
+                "key": "field_67482dd651f0d",
+                "label": "Autem numquam et asp",
+                "name": "autem_numquam_et_asp",
+                "aria-label": "",
+                "type": "post_object",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "attachment"
+                ],
+                "post_status": [
+                    "draft"
+                ],
+                "taxonomy": [
+                    "category:niet-gecategoriseerd",
+                    "category:test"
+                ],
+                "return_format": "id",
+                "multiple": 1,
+                "allow_null": 0,
+                "bidirectional": 0,
+                "ui": 1,
+                "bidirectional_target": []
+            },
+            {
+                "key": "field_67482de251f0e",
+                "label": "Commodi aspernatur i",
+                "name": "commodi_aspernatur_i",
+                "aria-label": "",
+                "type": "page_link",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "attachment"
+                ],
+                "post_status": [
+                    "pending"
+                ],
+                "taxonomy": [
+                    "category:niet-gecategoriseerd",
+                    "category:test"
+                ],
+                "allow_archives": 0,
+                "multiple": 0,
+                "allow_null": 0
+            },
+            {
+                "key": "field_67482df451f0f",
+                "label": "Velit sint totam ob",
+                "name": "velit_sint_totam_ob",
+                "aria-label": "",
+                "type": "relationship",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "attachment",
+                    "my_example_post_type"
+                ],
+                "post_status": [
+                    "future"
+                ],
+                "taxonomy": [
+                    "category:niet-gecategoriseerd"
+                ],
+                "filters": [
+                    "search",
+                    "post_type",
+                    "taxonomy"
+                ],
+                "return_format": "id",
+                "min": "",
+                "max": "",
+                "elements": "",
+                "bidirectional": 0,
+                "bidirectional_target": []
+            },
+            {
+                "key": "field_67482e0351f10",
+                "label": "Ut quia id a aut ni",
+                "name": "ut_quia_id_a_aut_ni",
+                "aria-label": "",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "example_taxonomy",
+                "add_term": 1,
+                "save_terms": 1,
+                "load_terms": 1,
+                "return_format": "id",
+                "field_type": "checkbox",
+                "bidirectional": 0,
+                "multiple": 0,
+                "allow_null": 0,
+                "bidirectional_target": []
+            },
+            {
+                "key": "field_67482e1151f11",
+                "label": "Quia omnis quam cons",
+                "name": "quia_omnis_quam_cons",
+                "aria-label": "",
+                "type": "user",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "role": [
+                    "author"
+                ],
+                "return_format": "object",
+                "multiple": 0,
+                "allow_null": 0,
+                "bidirectional": 0,
+                "bidirectional_target": []
+            },
+            {
+                "key": "field_67482e1f51f12",
+                "label": "Atque incididunt inv",
+                "name": "atque_incididunt_inv",
+                "aria-label": "",
+                "type": "google_map",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "center_lat": "Officia veritatis id",
+                "center_lng": "Consequuntur optio",
+                "zoom": "Non voluptate et off",
+                "height": "Sint accusantium nih"
+            },
+            {
+                "key": "field_67482e2f51f13",
+                "label": "A amet quia et ex q",
+                "name": "a_amet_quia_et_ex_q",
+                "aria-label": "",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "m\/d\/Y",
+                "return_format": "m\/d\/Y",
+                "first_day": 2
+            },
+            {
+                "key": "field_67482e3a51f14",
+                "label": "Aperiam voluptate fu",
+                "name": "aperiam_voluptate_fu",
+                "aria-label": "",
+                "type": "date_time_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "Y-m-d H:i:s",
+                "return_format": "Y-m-d H:i:s",
+                "first_day": 4
+            },
+            {
+                "key": "field_67482e4651f15",
+                "label": "Expedita praesentium",
+                "name": "expedita_praesentium",
+                "aria-label": "",
+                "type": "time_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "g:i a",
+                "return_format": "H:i:s"
+            },
+            {
+                "key": "field_67482e6051f16",
+                "label": "Modi quia et ut id u",
+                "name": "modi_quia_et_ut_id_u",
+                "aria-label": "",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Explicabo Mollitia",
+                "enable_opacity": 0,
+                "return_format": "array"
+            },
+            {
+                "key": "field_67482e6c51f17",
+                "label": "Ea assumenda eum in",
+                "name": "ea_assumenda_eum_in",
+                "aria-label": "",
+                "type": "icon_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "tabs": [
+                    "url"
+                ],
+                "return_format": "string",
+                "library": "all",
+                "default_value": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            {
+                "key": "field_67482e86395d4",
+                "label": "Aut impedit quam es",
+                "name": "aut_impedit_quam_es",
+                "aria-label": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Qui sit quisquam no",
+                "new_lines": "",
+                "esc_html": 0
+            },
+            {
+                "key": "field_67482eb6395d7",
+                "label": "Accusamus quisquam e",
+                "name": "accusamus_quisquam_e",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "sub_fields": []
+            },
+            {
+                "key": "field_67482ec2395d8",
+                "label": "Elit sit quo dolore",
+                "name": "elit_sit_quo_dolore",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Nieuwe regel",
+                "layout": "table",
+                "pagination": 0,
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_67482ed7395d9",
+                        "label": "Quis corporis volupt",
+                        "name": "quis_corporis_volupt",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Consequatur nihil d",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_67482ec2395d8"
+                    }
+                ]
+            },
+            {
+                "key": "field_67482ee2395da",
+                "label": "Dolores cupidatat et",
+                "name": "dolores_cupidatat_et",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layouts": {
+                    "layout_67482ee65dfac": {
+                        "key": "layout_67482ee65dfac",
+                        "name": "eum_quisquam_reicien",
+                        "label": "Eum quisquam reicien",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_67482ef0395db",
+                                "label": "Aliqua Sint fugit",
+                                "name": "aliqua_sint_fugit",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "Repudiandae unde lab",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            }
+                        ],
+                        "min": "Est perspiciatis r",
+                        "max": "Obcaecati sequi sint"
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Nieuwe regel"
+            },
+            {
+                "key": "field_67482f12395dd",
+                "label": "Quasi iste voluptas",
+                "name": "quasi_iste_voluptas",
+                "aria-label": "",
+                "type": "clone",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "clone": "",
+                "display": "seamless",
+                "layout": "block",
+                "prefix_label": 0,
+                "prefix_name": 1
+            },
+            {
+                "key": "field_67482e94395d5",
+                "label": "Quibusdam ut officii",
+                "name": "quibusdam_ut_officii",
+                "aria-label": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 1,
+                "endpoint": 1
+            },
+            {
+                "key": "field_67482ea4395d6",
+                "label": "In esse id et ut",
+                "name": "in_esse_id_et_ut",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
