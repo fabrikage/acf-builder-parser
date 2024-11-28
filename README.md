@@ -138,7 +138,7 @@ $myBuilderVar->addPostObject('field_67482dd651f0d', [
         'draft',
     ],
     'taxonomy' => [
-        'category:niet-gecategoriseerd',
+        'category:uncategorized',
         'category:test',
     ],
     'multiple' => true,
@@ -173,7 +173,7 @@ $elitSitQuoDolore = $myBuilderVar->addRepeater('field_67482ec2395d8', [
     'name' => 'elit_sit_quo_dolore',
     'min' => 0,
     'max' => 0,
-    'button_label' => __('Nieuwe regel', 'fabrikage'),
+    'button_label' => __('New row', 'fabrikage'),
     'layout' => 'table',
     'pagination' => false,
     'rows_per_page' => 20,

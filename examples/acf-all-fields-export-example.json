@@ -316,7 +316,7 @@
                 "layout": "vertical",
                 "toggle": 0,
                 "save_custom": 0,
-                "custom_choice_button_text": "Nieuwe keuze toevoegen"
+                "custom_choice_button_text": "Add new choice"
             },
             {
                 "key": "field_67482d9b51f09",
@@ -730,7 +730,7 @@
                 "min": 0,
                 "max": 0,
                 "collapsed": "",
-                "button_label": "Nieuwe regel",
+                "button_label": "New row",
                 "layout": "table",
                 "pagination": 0,
                 "rows_per_page": 20,
@@ -806,7 +806,7 @@
                 },
                 "min": "",
                 "max": "",
-                "button_label": "Nieuwe regel"
+                "button_label": "New row"
             },
             {
                 "key": "field_67482f12395dd",
