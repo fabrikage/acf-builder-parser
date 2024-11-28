@@ -31,6 +31,7 @@ class PhpParser
 
     private function getBuilderVariable(): string
     {
+        // If first character is not a dollar sign, add it
         if (substr($this->builderVariable, 0, 1) !== '$') {
             return '$' . $this->builderVariable;
         }
