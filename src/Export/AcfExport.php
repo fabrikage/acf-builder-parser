@@ -45,7 +45,11 @@ class AcfExport
             try {
                 $fields->addField(TypeAbstract::fromArray($field));
             } catch (\Exception $e) {
-                dump($e);
+                error_log('Error parsing field: ' . $e->getMessage());
+
+                if (function_exists('dump')) {
+                    dump($e);
+                }
             }
         }
 
