@@ -1,6 +1,6 @@
 # ACF Builder Parser
 
-### This project is a work in progress and is not yet ready for use.
+### This project is a work in progress and is not yet ready for use. Feel free to submit pull requests.
 
 ![Work in progress](https://img.shields.io/badge/status-work_in_progress-orange.svg)
 
