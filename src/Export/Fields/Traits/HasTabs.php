@@ -4,9 +4,9 @@ namespace Fabrikage\AcfBuilderParser\Export\Fields\Traits;
 
 trait HasTabs
 {
-    public string $tabs = 'all';
+    public string|array $tabs = 'all';
 
-    public function getTabs(): string
+    public function getTabs(): string|array
     {
         return $this->tabs;
     }

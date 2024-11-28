@@ -421,7 +421,7 @@
                     "draft"
                 ],
                 "taxonomy": [
-                    "category:niet-gecategoriseerd",
+                    "category:uncategorized",
                     "category:test"
                 ],
                 "return_format": "id",
@@ -690,7 +690,28 @@
                     "id": ""
                 },
                 "layout": "row",
-                "sub_fields": []
+                "sub_fields": [
+                    {
+                        "key": "field_67482ed7395d9",
+                        "label": "Quis corporis volupt",
+                        "name": "quis_corporis_volupt",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Consequatur nihil d",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
+                    }
+                ]
             },
             {
                 "key": "field_67482ec2395d8",

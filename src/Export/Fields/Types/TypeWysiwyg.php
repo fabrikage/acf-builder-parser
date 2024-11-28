@@ -10,8 +10,8 @@ use Fabrikage\AcfBuilderParser\Export\Fields\Traits\HasToolbar;
 
 final class TypeWysiwyg extends TypeAbstract
 {
-    use HasTabs;
     use HasDefaultValue;
+    use HasTabs;
     use HasToolbar;
     use HasMediaUpload;
     use HasDelay;

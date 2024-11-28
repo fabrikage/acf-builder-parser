@@ -10,9 +10,9 @@ use Fabrikage\AcfBuilderParser\Export\Fields\Traits\HasPrependAppend;
 final class TypeText extends TypeAbstract
 {
     use HasDefaultValue;
-    use HasPrependAppend;
     use HasMaxlength;
     use HasPlaceholder;
+    use HasPrependAppend;
 
     public static function getTypeName(): string
     {

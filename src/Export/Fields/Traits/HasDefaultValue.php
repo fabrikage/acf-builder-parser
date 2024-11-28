@@ -9,9 +9,9 @@ trait HasDefaultValue
 {
     #[IsHiddenWhen('')]
     #[IsTranslatable]
-    public string|bool $defaultValue = '';
+    public string|bool|array $defaultValue = '';
 
-    public function getDefaultValue(): string|bool
+    public function getDefaultValue(): string|bool|array
     {
         return $this->defaultValue;
     }

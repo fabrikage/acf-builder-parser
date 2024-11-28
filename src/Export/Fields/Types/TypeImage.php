@@ -2,15 +2,15 @@
 
 namespace Fabrikage\AcfBuilderParser\Export\Fields\Types;
 
-use Fabrikage\AcfBuilderParser\Export\Fields\Traits\HasDimensions;
-use Fabrikage\AcfBuilderParser\Export\Fields\Traits\HasMimeTypes;
-use Fabrikage\AcfBuilderParser\Export\Fields\Traits\HasPreviewSize;
+use Fabrikage\AcfBuilderParser\Export\Fields\Traits;
 
 final class TypeImage extends TypeAbstract
 {
-    use HasDimensions;
-    use HasMimeTypes;
-    use HasPreviewSize;
+    use Traits\HasReturnFormat;
+    use Traits\HasLibrary;
+    use Traits\HasDimensions;
+    use Traits\HasMimeTypes;
+    use Traits\HasPreviewSize;
 
     public static function getTypeName(): string
     {

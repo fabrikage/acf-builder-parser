@@ -8,8 +8,8 @@ use Fabrikage\AcfBuilderParser\Export\Fields\Traits\HasUi;
 
 final class TypeTrueFalse extends TypeAbstract
 {
-    use HasDefaultValue;
     use HasMessage;
+    use HasDefaultValue;
     use HasUi;
 
     public static function getTypeName(): string

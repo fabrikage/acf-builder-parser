@@ -115,5 +115,10 @@ abstract class TypeAbstract
         return $keyFormatter;
     }
 
+    /**
+     * This method is used to identify the field type from the export
+     *
+     * @return string
+     */
     abstract public static function getTypeName(): string;
 }

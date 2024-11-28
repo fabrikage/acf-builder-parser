@@ -9,11 +9,12 @@ trait HasDefaults
 {
     use HasKey;
     use HasLabel;
-    use HasAriaLabel;
     use HasName;
+    use HasAriaLabel;
     use HasType;
     use HasInstructions;
     use HasRequired;
-    use HasWrapper;
     use HasConditionalLogic;
+    use HasWrapper;
+    use HasParentRepeater;
 }
