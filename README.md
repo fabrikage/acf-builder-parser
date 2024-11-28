@@ -13,11 +13,22 @@ This project provides a parser for converting ACF (Advanced Custom Fields) expor
 - PHP 8.1 or higher
 - Composer
 
-## Installation
+## Installation into project via Composer
 
-1. Clone the repository
+1. Install via Composer:
+   ```sh
+   composer require fabrikage/acf-builder-parser
+   ```
 
-2. Install dependencies using Composer:
+## Manual installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone git@github.com:fabrikage/acf-builder-parser.git
+   ```
+
+2. Install dependencies:
    ```sh
    composer install
    ```
@@ -35,10 +46,10 @@ use Fabrikage\AcfBuilderParser\Parser\PhpParser;
 $autoload = dirname(__DIR__) . '/vendor/autoload.php';
 
 if (!file_exists($autoload)) {
-    throw new \RuntimeException('Please run `composer install` first.'); // NOSONAR
+    throw new \RuntimeException('Please run `composer install` first.');
 }
 
-require_once $autoload; // NOSONAR
+require_once $autoload;
 
 // Give it some JSON to work with
 $json = file_get_contents(__DIR__ . '/acf-all-fields-export-example.json');
