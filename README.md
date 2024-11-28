@@ -71,6 +71,8 @@ echo '</pre>';
 
 ## Example output
 
+Note: [`stoutlogic/acf-builder`](https://github.com/StoutLogic/acf-builder) is required in the project to use the generated code.
+
 ```php
 // $myBuilderVar has been manually set in the parser
 $myBuilderVar = new StoutLogic\AcfBuilder\FieldsBuilder('group_67482934dadb3', [
