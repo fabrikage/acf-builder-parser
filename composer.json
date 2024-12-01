@@ -19,6 +19,11 @@
         "stoutlogic/acf-builder": "^1.12"
     },
     "require-dev": {
-        "symfony/var-dumper": "^7.1"
+        "symfony/var-dumper": "^7.1",
+        "phpunit/phpunit": "^11.4"
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t examples",
+        "test": "phpunit"
     }
 }

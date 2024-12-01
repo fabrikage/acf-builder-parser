@@ -18,6 +18,10 @@ class AcfExportFieldCollection
 
     public function getField(string $key): TypeAbstract
     {
+        if (!$this->hasField($key)) {
+            throw new \TypeError(sprintf('Field with key "%s" not found', $key));
+        }
+
         return $this->fields[$key];
     }
 
