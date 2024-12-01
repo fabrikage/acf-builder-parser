@@ -9,4 +9,9 @@ jobs:
         steps:
             - uses: actions/checkout@v3
             - uses: php-actions/composer@v6
-            - uses: php-actions/phpunit@v3
+            - name: Run tests
+              uses: php-actions/phpunit@v3
+              with:
+                  version: latest
+                  php_version: "8.1"
+                  test_suffix: "Test.php"
