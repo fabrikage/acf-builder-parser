@@ -13,5 +13,5 @@ jobs:
               uses: php-actions/phpunit@v3
               with:
                   version: latest
-                  php_version: "8.1"
+                  php_version: "8.2"
                   test_suffix: "Test.php"
