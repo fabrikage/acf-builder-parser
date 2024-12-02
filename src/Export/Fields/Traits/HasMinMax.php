@@ -2,17 +2,22 @@
 
 namespace Fabrikage\AcfBuilderParser\Export\Fields\Traits;
 
+use Fabrikage\AcfBuilderParser\Export\Fields\Attributes\IsHiddenWhen;
+
 trait HasMinMax
 {
-    public int $min = 0;
-    public int $max = 0;
+    #[IsHiddenWhen('')]
+    public int|string $min = '';
 
-    public function getMin(): int
+    #[IsHiddenWhen('')]
+    public int|string $max = '';
+
+    public function getMin(): int|string
     {
         return $this->min;
     }
 
-    public function getMax(): int
+    public function getMax(): int|string
     {
         return $this->max;
     }
