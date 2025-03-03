@@ -201,7 +201,7 @@ class PhpParser
             return sprintf('__(\'%s\', \'%s\')', addslashes($attribute->value), $this->textdomain);
         }
 
-        return sprintf('\'%s\'', $attribute->value);
+        return sprintf('\'%s\'', addslashes($attribute->value));
     }
 
     private function parseAttributeArrayRecursive(array $array, int $level = 0, int $max = 0): string
