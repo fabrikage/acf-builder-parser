@@ -100,7 +100,7 @@ class PhpParser
 
         $fields = $acfJson->getFields();
 
-        $output = sprintf('%s = new %s(\'' . $acfJson->getKey() . '\', [', $this->getBuilderVariable(), FieldsBuilder::class);
+        $output = sprintf('%s = new \%s(\'' . $acfJson->getKey() . '\', [', $this->getBuilderVariable(), FieldsBuilder::class);
         $output .= $this->newline();
 
         foreach ($acfJson->getDefaults() as $attribute) {
