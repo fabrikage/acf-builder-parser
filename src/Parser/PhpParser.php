@@ -198,7 +198,7 @@ class PhpParser
         }
 
         if ($attribute->isTranslatable && isset($this->textdomain)) {
-            return sprintf('__(\'%s\', \'%s\')', $attribute->value, $this->textdomain);
+            return sprintf('__(\'%s\', \'%s\')', addslashes($attribute->value), $this->textdomain);
         }
 
         return sprintf('\'%s\'', $attribute->value);
