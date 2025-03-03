@@ -18,7 +18,7 @@ class PhpParser
     private string $resultVariable = '$acfJson';
 
     private static $instance;
-    private string $textdomain = 'textdomain';
+    private string $textdomain;
 
     public static function getInstance(): PhpParser
     {
@@ -197,7 +197,7 @@ class PhpParser
             return $this->parseAttributeArrayRecursive($attribute->value);
         }
 
-        if ($attribute->isTranslatable) {
+        if ($attribute->isTranslatable && isset($this->textdomain)) {
             return sprintf('__(\'%s\', \'%s\')', $attribute->value, $this->textdomain);
         }
 
