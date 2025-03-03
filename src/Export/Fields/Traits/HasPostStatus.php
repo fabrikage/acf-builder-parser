@@ -7,7 +7,7 @@ use Fabrikage\AcfBuilderParser\Export\Fields\Attributes\IsHiddenWhen;
 trait HasPostStatus
 {
     #[IsHiddenWhen('')]
-    public array $postStatus = [];
+    public array|string $postStatus = [];
 
     public function getPostStatus(): array
     {
